@@ -1,13 +1,13 @@
 h1 { 
-  color: #111; 
+  color: #990000; 
   font-family: 'Open Sans Condensed', sans-serif; 
-  font-size: 54px; 
+  font-size: 44px; 
   font-weight: 700; 
-  line-height: 54px; 
+  line-height: 44px; 
   margin: 0 0 0; 
   padding: 20px 30px; 
   text-align: center; 
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 h2 { 
