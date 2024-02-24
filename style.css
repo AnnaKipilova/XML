@@ -33,7 +33,7 @@ h1 {
   width: 80px; 
 }
 
-.read-more:hover { 
+.task_click:hover { 
   background: #990000; 
   text-decoration: none; 
 }
