@@ -38,11 +38,11 @@ h2 {
   line-height: 80px; 
   margin: -40px 0 0 -40px; 
   position: absolute; 
-  bottom: 0px; 
   left: 50%; 
   text-align: center; 
   text-transform: uppercase; 
-  width: 80px; 
+  width: 80px;
+  text-decoration: none;
 }
 
 .task_click:hover { 
