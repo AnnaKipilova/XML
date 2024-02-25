@@ -7,7 +7,7 @@
                 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
             </head>
             <body>
-                <h2 id="author" title="Kipilova">Анна Кипилова</h2>
+                <h2 id="author" title="Kipilova">Author: АННА КИПИЛОВА</h2>
                 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
                     <xsl:apply-templates/>
                 </math>
