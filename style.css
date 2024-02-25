@@ -1,63 +1,75 @@
 h1 { 
-  color: #990000; 
-  font-family: 'Open Sans Condensed', sans-serif; 
-  font-size: 44px; 
-  font-weight: 700; 
-  line-height: 44px; 
-  margin: 0 0 0; 
-  padding: 20px 30px; 
-  text-align: center; 
-  text-transform: uppercase;
-}
+    color: #990000; 
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 34px; 
+    font-weight: 700; 
+    line-height: 34px; 
+    margin: 0 0 0; 
+    padding: 20px 30px; 
+    text-align: center; 
+    text-transform: uppercase;
+    left: 50%; 
+  }
+  
+  h2 { 
+    color: #111; 
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 16px;
+    font-weight: 700; 
+    line-height: 16px; 
+    margin: 0 0 0; 
+    padding: 20px 30px; 
+    text-align: left; 
+  }
+  
+  .task_click { 
+    -moz-border-radius: 50%; 
+    -moz-transition: all 0.2s ease-in-out; 
+    -webkit-border-radius: 50%; 
+    -webkit-transition: all 0.2s ease-in-out; 
+    background: #111; 
+    border-radius: 50%; 
+    border: 10px solid #fdfdfd; 
+    color: #fff; 
+    display: block; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px; 
+    height: 80px; 
+    line-height: 80px; 
+    
+   
+   
+    text-align: center; 
+    text-transform: uppercase; 
+    width: 80px;
+    text-decoration: none;
+  }
+  
+  .task_click:hover { 
+    background: #990000; 
+    text-decoration: none; 
+  }
+  
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .grid-container > div {
+    display: flex;
+    width: 600px;
+    margin: 10px;
+    
+    line-height: 75px;
+  }
 
-h2 { 
-  color: #111; 
-  font-family: 'Open Sans Condensed', sans-serif; 
-  font-size: 24px;
-  font-weight: 700; 
-  line-height: 24px; 
-  margin: 0 0 0; 
-  padding: 20px 30px; 
-  text-align: left; 
-  text-transform: uppercase; 
-}
+  .task {
+    justify-content: right;
+    align-items: center;
+  }
 
-.task_click { 
-  -moz-border-radius: 50%; 
-  -moz-transition: all 0.2s ease-in-out; 
-  -webkit-border-radius: 50%; 
-  -webkit-transition: all 0.2s ease-in-out; 
-  background: #111; 
-  border-radius: 50%; 
-  border: 10px solid #fdfdfd; 
-  color: #fff; 
-  display: block; 
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 14px; 
-  height: 80px; 
-  line-height: 80px; 
-  margin: -40px 0 0 -40px; 
-  position: absolute; 
-  left: 50%; 
-  text-align: center; 
-  text-transform: uppercase; 
-  width: 80px;
-  text-decoration: none;
-}
+  .click {
+    justify-content: left;
+    align-items: center;
+  }
 
-.task_click:hover { 
-  background: #990000; 
-  text-decoration: none; 
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-}
-
-.flex-container > div {
-  width: 600px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-}
