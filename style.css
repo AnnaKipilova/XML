@@ -14,7 +14,7 @@ h2 {
   color: #111; 
   font-family: 'Open Sans Condensed', sans-serif; 
   font-size: 24px;
-  font-weight: 200; 
+  font-weight: 700; 
   line-height: 24px; 
   margin: 0 0 0; 
   padding: 20px 30px; 
@@ -56,7 +56,7 @@ h2 {
 }
 
 .flex-container > div {
-  width: 400px;
+  width: 600px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
